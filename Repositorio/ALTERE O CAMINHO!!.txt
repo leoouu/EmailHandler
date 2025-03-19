@@ -1,0 +1,29 @@
+@echo off
+echo Verificando o diretorio atual:
+cd
+echo.
+
+echo Mudando para o diretório do projeto:
+cd "C:\Users\Leonardo\Desktop\Repositorio\Projeto"
+if errorlevel 1 (
+    echo Erro ao mudar para o diretorio especificado. Verifique o caminho.
+    pause
+    exit /b 1
+)
+echo.
+
+echo Listando arquivos no diretorio do projeto:
+dir
+echo.
+
+echo Executando o script main.py:
+python main.py
+if errorlevel 1 (
+    echo Erro ao executar o script. Verifique se o arquivo main.py está presente.
+    pause
+    exit /b 1
+)
+echo.
+
+echo Script executado com sucesso.
+pause
