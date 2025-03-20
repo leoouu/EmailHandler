@@ -15,7 +15,7 @@ pip install python-docx
 pip install python-dotenv
 
 
-3. Após isso o usuário deverá abrir o bloco de notas "ALTERE O CAMINHO!!" e então na sétima linha alterar o caminho que esta a pasta do projeto principal, por exemplo a minha é "C:\Users\Leonardo\Desktop\Repositorio\Projeto", e então clicar em salvar como, colocar o nome de sua preferencia porem com o final sendo .bat, por exemplo "Programa.bat", e pronto, so iniciar esse arquivo que o programa ira funcionar corretamente!
+3. Após isso o usuário deverá abrir o bloco de notas "ALTERE O CAMINHO!!" e então na sétima linha alterar o caminho que esta a pasta do projeto principal, por exemplo a minha é "C:\Users\UserName\Desktop\Repositorio\Projeto", e então clicar em salvar como, colocar o nome de sua preferencia porem com o final sendo .bat, por exemplo "Programa.bat", e pronto, so iniciar esse arquivo que o programa ira funcionar corretamente!
 
 
 
