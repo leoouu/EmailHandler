@@ -1,26 +1,39 @@
-Description
-This project allows the submission and processing of resumes in PDF and DOCX formats, filtering them based on user-provided keywords. It also supports processing resumes received via email.
+# 📄 Resume Processing System  
 
-Requirements
-Python 3.8 or higher
+This project allows the submission and processing of resumes in **PDF** and **DOCX** formats, filtering them based on user-provided keywords. It also supports processing resumes received via email.  
 
-Email client (such as Outlook)
+## 🚀 Features  
+- Extracts text from **PDF** and **DOCX** files  
+- Filters resumes based on **keywords**  
+- Supports **email-based** resume submission  
+- Easy-to-use **batch file execution**  
 
-Installation
-Download the ZIP file.
+## 🛠 Requirements  
+- **Python 3.8 or higher**  
+- **Email client** (such as Outlook)  
 
-To use this new version of the project, run the following commands in the command prompt:
+## 📥 Installation  
 
-sh
-pip install pymupdf
-pip install python-docx
-pip install python-dotenv
-After that, open the "ALTERE O CAMINHO!!" text file in Notepad and modify the seventh line to update the path where the main project folder is located.
+<h2>1️⃣ Clone the Repository </h2>
+git clone https://github.com/your-username/your-repository.git <br/>
+cd your-repository
 
-Example: "C:\Users\UserName\Desktop\Repository\Project"
+<h2>2️⃣ Install Dependencies</h2>
+Run the following commands in the terminal: <br/>
+pip install pymupdf <br/>
+pip install python-docx <br/>
+pip install python-dotenv <br/>
 
-Then, click Save As, choose any name but ensure it ends with .bat (e.g., "Program.bat").
 
-Once saved, simply run the .bat file, and the program will start correctly!
+<h2>3️⃣ Configure the File Path</h2> <br/>
+Open the "ALTERE O CAMINHO!!" file in a text editor. <br/>
 
-(This setup only needs to be done once. From the second time onwards, just open the .bat file you created to launch the program.)
+Modify the seventh line to reflect the correct path of your main project folder: <br/>
+
+C:\Users\UserName\Desktop\Repository\Project <br/>
+Save the file as a .bat file (e.g., Program.bat). <br/>
+
+<h2>4️⃣ Run the Program</h2>  <br/>
+Simply double-click the .bat file you created, and the program will start correctly! <br/>
+
+📝 Note: This setup only needs to be done once. From the second time onwards, just open the .bat file to launch the program. <br/>
