@@ -1,23 +1,26 @@
-## Descrição
-Este projeto permite o envio e processamento de currículos em formatos PDF e DOCX, filtrando-os com base em palavras-chave fornecidas pelo usuário. Também permite o processamento de currículos enviados por email.
+Description
+This project allows the submission and processing of resumes in PDF and DOCX formats, filtering them based on user-provided keywords. It also supports processing resumes received via email.
 
-## Requisitos
-- Python 3.8 ou superior
-- Cliente de email (como Outlook)
+Requirements
+Python 3.8 or higher
 
-## Instalação
-1. Baixe o arquivo ZIP
+Email client (such as Outlook)
 
-2. Para usar essa nova versão do projeto você colocar esses comando no prompt de comando: 
+Installation
+Download the ZIP file.
 
+To use this new version of the project, run the following commands in the command prompt:
+
+sh
 pip install pymupdf
 pip install python-docx
 pip install python-dotenv
+After that, open the "ALTERE O CAMINHO!!" text file in Notepad and modify the seventh line to update the path where the main project folder is located.
 
+Example: "C:\Users\UserName\Desktop\Repository\Project"
 
-3. Após isso o usuário deverá abrir o bloco de notas "ALTERE O CAMINHO!!" e então na sétima linha alterar o caminho que esta a pasta do projeto principal, por exemplo "C:\Users\UserName\Desktop\Repositorio\Projeto", e então clicar em salvar como, colocar o nome de sua preferencia porem com o final sendo .bat, por exemplo "Programa.bat", e pronto, so iniciar esse arquivo que o programa ira funcionar corretamente!
+Then, click Save As, choose any name but ensure it ends with .bat (e.g., "Program.bat").
 
+Once saved, simply run the .bat file, and the program will start correctly!
 
-
-
-(Tudo isso só deverá ser feito uma unica vez, a partir da segunda vez é somente abrir o arquivo ".bat" que vc criou que o programa ira iniciar)
+(This setup only needs to be done once. From the second time onwards, just open the .bat file you created to launch the program.)
