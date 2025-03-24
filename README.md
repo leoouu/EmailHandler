@@ -28,10 +28,9 @@ pip install python-dotenv <br/>
 <h2>3️⃣ Configure the File Path</h2> 
 Open the "ALTERE O CAMINHO!!" file in a text editor. <br/>
 
-Modify the seventh line to reflect the correct path of your main project folder: <br/>
-
+Modify the seventh line to reflect the correct path of your main project folder: 
 C:\Users\UserName\Desktop\Repository\Project <br/>
-Save the file as a .bat file (e.g., Program.bat). <br/>
+Save the file as a .bat file (e.g., Program.bat). 
 
 <h2>4️⃣ Run the Program</h2> 
 Simply double-click the .bat file you created, and the program will start correctly! <br/>
