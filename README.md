@@ -1,7 +1,5 @@
 # 📄 Resume Processing System  
 
-## Overview
-
 This is a Python-based backend application designed to automate the processing of resumes received via email. It extracts and filters content based on custom keywords defined by the user, streamlining recruitment workflows.  
 
 ## 🚀 Features  
@@ -37,7 +35,7 @@ Save the file as a .bat file (e.g., Program.bat).
 <h2>4️⃣ Run the Program</h2> 
 Simply double-click the .bat file you created, and the program will start correctly! <br/>
 
-## Usage
+## <h2> ✨ Usage </h2>
 
 Once configured, the user can submit resumes via email. The program will: <br/>
 1. Automatically download new email attachments (.pdf or .docx). <br/>
